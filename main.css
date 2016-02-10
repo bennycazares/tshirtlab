@@ -2,14 +2,14 @@ body > *{
   display: flex;
   flex-direction: row;
 }
-.shirt-container {
+.tshirt-container {
   width: 394px;
   height: 440px;
   background-color: white;
   padding: 0;
   border: 3px solid #5CA4D7;
   margin: 42px 25px 0px 25px;
-  z-index: 1;
+
 }
 ul {
   margin: 0px;
@@ -24,8 +24,8 @@ ul {
 }
 .listcontainer {
 
-  width: 400px;
-  height: 60px;
+  width: 395px;
+  height: 55px;
   margin: 0px;
   padding: 0px;
   position: relative;
@@ -33,8 +33,8 @@ ul {
   left: 0;
 }
 li {
-  height: 60px;
-  width: 75px;
+  height: 55px;
+  width: 77px;
   border-left: 3px solid #5CA4D7;
   position: relative;
   align-self: flex-end;
@@ -70,40 +70,35 @@ li:first-of-type {
   border-bottom: 3px solid #5CA4D7;
   position: relative;
   float: right;
-  width: 33px;
-  height: 24px;
+  width: 30px;
+  height: 25px;
   right: 0px;
   top: 0px;
-  z-index: 5;
+  padding-top: 5px;
+  z-index: 2;
   background-color: white;
   color: #5CA4D7;
   align-content: center;
   text-align: center;
-  padding-top: 7
+
 }
-.card-size {
-  width: 394px;
-  height: 382px;
-}
-.container {
-  perspective: 1000px;
-  @extend .card-size;
-}
+
+
 .flipper {
   position: relative;
-  width: 394px;
-  height: 382px;
+  width: 395px;
+  height: 380px;
 }
 .front, .back {
   position: absolute;
   top: 0;
   left: 0;
-  width: 400px;
-  height: 375px;
+  width: 395px;
+  height: 380px;
 }
-.titlebox {
+.text {
   font-size: 28px;
-  width: 394px;
+  width: 395px;
   height: 55px;
   border: none;
   display: flex;
@@ -120,9 +115,12 @@ li:first-of-type {
   color: #5CA4D7;
 
 }
+.text3{
+  padding-left:10px; 
+}
 @media screen and (max-width: 700px){
 
-.body > *{
+.body{
 
 flex-direction: column;
 }
