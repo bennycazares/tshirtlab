@@ -115,12 +115,3 @@ li:first-of-type {
   color: #5CA4D7;
 
 }
-.text3{
-  padding-left:10px; 
-}
-@media screen and (max-width: 700px){
-
-.body{
-
-flex-direction: column;
-}
